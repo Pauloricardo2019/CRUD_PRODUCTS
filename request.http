@@ -1,0 +1,31 @@
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+    "name": "Caneta Lilas",
+    "price": 3
+}
+###
+
+GET http://localhost:3001/products
+Content-Type: application/json
+
+
+
+
+###
+
+PUT http://localhost:3001/products/83af1650-63d2-4134-bdc7-191d0fc79a4e
+Content-Type: application/json
+
+{
+    "name": "Caneta Lilas",
+    "price": 3
+}
+
+
+
+
+###
+
+DELETE http://localhost:3001/products/83af1650-63d2-4134-bdc7-191d0fc79a4e
